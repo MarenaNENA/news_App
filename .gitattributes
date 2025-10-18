@@ -1,0 +1,11 @@
+# Tell GitHub that this project is mainly Dart/Flutter
+*.dart linguist-detectable=true
+*.dart linguist-language=Dart
+
+# Ignore platform build files
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+web/** linguist-vendored
