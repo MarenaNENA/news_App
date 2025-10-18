@@ -1,16 +1,52 @@
-# news_app
+# 📰 News App
 
-A new Flutter project.
+A Flutter application that displays the latest news from an online API using **Dio**, with category-based browsing and an integrated **WebView** for reading full articles.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- 🌍 Fetches real-time news from an API  
+- 🗂️ Browse news by categories (Business, Sports, Health, Technology...)  
+- 📰 View full articles directly in the app using WebView  
+- ⚡ Uses FutureBuilder for async data fetching  
+- 💎 Clean and modern UI built with reusable custom widgets  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Technologies Used
+- **Flutter** 🩵  
+- **Dart**  
+- **Dio** for HTTP requests  
+- **WebView** for article display  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ⚙️ Installation
+```bash
+# Clone the repository
+git clone https://github.com/MarenaNENA/news_App.git
+
+# Go into the project folder
+cd news_App
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+
+---
+
+## ⚙️Folder Structure
+lib/
+ ┣ models/
+ ┃ ┗ artical_model.dart
+ ┣ services/
+ ┃ ┗ news_api.dart
+ ┣ views/
+ ┃ ┣ news_view.dart
+ ┃ ┗ news_list.dart
+ ┣ categories/
+ ┃ ┗ artical_card.dart
+ ┗ main.dart
+
